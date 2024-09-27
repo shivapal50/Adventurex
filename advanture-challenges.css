@@ -1,0 +1,222 @@
+/* styles.css */
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header Styles */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #283618; /* Dark green from your color palette */
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fefae0; /* Light beige from palette */
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #bc6c25; /* Accent orange from palette */
+  }
+  /* Hero Section */
+  .hero {
+    background-image: url("https://imgcld.yatra.com/ytimages/image/upload/t_ann_seo_banner_tab/v1530015312/AdvNation/ANN_TRP156/adventure-trips-in-india_1440486703_aNbqdJ.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    position: relative;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fefae0; /* Light beige text */
+  }
+  
+  .hero-text h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  /* Latest Stories Section */
+  .latest-stories {
+    padding: 50px;
+    background-color: #fefae0; /* Light beige background */
+  }
+  
+  .latest-stories h2 {
+    text-align: center;
+    color: #283618;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .stories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .story {
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .story img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .story h3 {
+    padding: 15px;
+    color: #283618;
+  }
+  
+  .story p {
+    padding: 0 15px 20px;
+    color: #606c38;
+  }
+  /* Footer Section */
+  footer {
+    background-color: #283618; /* Dark green background */
+    color: #fefae0; /* Light beige text */
+    padding: 30px 0;
+    text-align: center;
+  }
+  
+  .footer-content p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  footer form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  footer input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 300px;
+  }
+  
+  footer button {
+    background-color: #bc6c25; /* Orange button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer button:hover {
+    background-color: #dda15e; /* Lighter orange on hover */
+  }
+  /* Latest Stories Section */
+  .latest-stories {
+    padding: 50px;
+    background-color: #fefae0; /* Light beige background */
+  }
+  
+  .latest-stories h2 {
+    text-align: center;
+    color: #283618;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .stories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .story {
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .story img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .story h3 {
+    padding: 15px;
+    color: #283618;
+  }
+  
+  .story p {
+    padding: 0 15px 20px;
+    color: #606c38;
+  }
+  /* Activity Section */
+  .activities {
+    padding: 50px;
+    background-color: #dddfd4; /* Light gray background for contrast */
+  }
+  
+  .activities h2 {
+    text-align: center;
+    color: #283618;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .activities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .activity {
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .activity img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .activity h3 {
+    padding: 15px;
+    color: #283618;
+  }
+  
+  .activity p {
+    padding: 0 15px 20px;
+    color: #606c38;
+  }
+  

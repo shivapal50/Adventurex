@@ -1,0 +1,161 @@
+/* General Styling */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230817/pngtree-bamboo-shoots-in-the-rain-forest-hokkaido-china-image_13023595.jpg'); /* Background image */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    z-index: -1;
+}
+
+.container {
+    max-width: 650px;
+    margin: 50px auto;
+    padding: 30px;
+    background-image:url(); /* Semi-transparent white background */
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    backdrop-filter: blur(5px); /* Glass effect */
+}
+
+h1 {
+    color: #f6faf8;
+    font-size: 4.0em;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+input, textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #0066cc;
+    border-radius: 8px;
+    font-size: 1.1em;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: inset 0 0 8px rgb(73, 69, 69);
+    transition: all 0.3s ease;
+    background-color: non;
+}
+
+input:focus, textarea:focus {
+    border-color: #28a745;
+    outline: none;
+    box-shadow: 0 0 10px rgba(40, 167, 69, 0.3);
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.3em;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+.gallery {
+    text-align: center;
+    margin: 60px 0;
+}
+
+.gallery h2 {
+    font-size: 2.2em;
+    color: #dcecfc;
+    margin-bottom: 20px;
+}
+
+.sports-images img {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.social-media {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.social-media h2 {
+    font-size: 1.8em;
+    color: #e6eef7;
+}
+
+.social-media ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-media ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.social-media ul li a {
+    color: #ecf2f8;
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-media ul li a:hover {
+    color: #e6f1fd;
+}
+
+/* Thank you popup */
+.thank-you-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+    text-align: center;
+    font-size: 1.2em;
+    animation: fadeIn 0.5s ease-out;
+}
